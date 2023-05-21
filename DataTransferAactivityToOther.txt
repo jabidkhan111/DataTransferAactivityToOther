@@ -1,0 +1,10 @@
+// kotlin
+			val intent = Intent(this,ActivityName::class.java)
+            intent.putExtra("key",id)
+            startActivity(intent)
+			
+//kotlin in Adapter
+			val intent = Intent(context,ActivityName::class.java)
+            intent.putExtra("key",id)
+            context.startActivity(intent)
+			
